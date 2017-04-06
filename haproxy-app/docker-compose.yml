@@ -1,0 +1,27 @@
+version: '2'
+
+
+services:
+ haproxy-app:
+     mem_limit: 856m
+     hostname: tenantvipapp
+     container_name: tenantvipapp
+     image: haproxy
+     restart: always
+     volumes:
+      - ./haproxycfg/haproxy-config.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+     ports:
+        - "80:80"
+        - "443:443"
+     networks:
+        - default
+     logging: 
+       driver: json-file
+       options:
+          max-size: 50m
+          max-file: '5'
+networks:
+ default:
+   driver: bridge
+
+

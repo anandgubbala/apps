@@ -1,0 +1,1000 @@
+  462  ls
+  463  cd scratch/
+  464  ls
+  465  mkdir configbkup
+  466  cd configbkup/
+  467  ls
+  468  dconf dump /org/mate > mate-config.txt
+  469  dconf dump /org/mate/ > mate-config.txt
+  470  ls -l
+  471  sync
+  472  sudo init 6
+  473  df -h
+  474  sync
+  475  sudo init 0
+  476  sudo apt-get remove eclipse/xenial
+  477  sudo apt-get autoremove eclipse/xenial
+  478  exit
+  479  ls
+  480  cd 
+  481  ls -l
+  482  cd eclipse/
+  483  ls
+  484  ls -l
+  485  pwd
+  486  df -h
+  487  sync
+  488  cd /opt/
+  489  ls l-
+  490  ls -l
+  491  mkdir .dfwtools-install-repo
+  492  sudo groupadd dfwusers
+  493  sudo usermod -a -G dfwusers
+  494  sudo sudo usermod -a -G dfwusers ubuntu
+  495  sudo mkdir -p /opt/.dfw-installer-repo
+  496  sudo mkdir -p /opt/dfwtools
+  497  sudo chown -R nobody:dfwusers /opt/dfwtools; sudo chmod -R 775 /opt/dfwtools/; sudo chown -R nobody:dfwusers /opt/.dfw-installer-repo; sudo chmod -R 775 /opt/.dfw-installer-repo/;  
+  498  history
+  499  ls -l
+  500  cd f
+  501  ls
+  502  cd dfwtools/
+  503  ls
+  504  touch w
+  505  cd 
+  506  ls
+  507  cd /opt/
+  508  ls
+  509  ls -l
+  510  exit
+  511  screen -d -r
+  512  screen
+  513  screen -d -r
+  514  screen -d -r
+  515  ls -l
+  516  cd /opt
+  517  ls
+  518  ls -l
+  519  cd dfwtools/
+  520  ls
+  521  ls -l
+  522  touch w
+  523  ls -l
+  524  rm w
+  525  ls -l
+  526  cd
+  527  ls
+  528  cd /opt/
+  529  ls -la
+  530  ls
+  531  history
+  532  sudo mkdir -p /opt/.station-basedir
+  533  sudo chown -R nobody:dfwusers /opt/.station-basedir/; sudo chmod -R 775 /opt/.station-basedir/;
+  534  cd .station-basedir/
+  535  ls
+  536  git clone https://AT883N@egbitbucket.dtvops.net/scm/com/devstation-utils.git
+  537  ls
+  538  dc devstation-utils/
+  539  ls
+  540  cd devstation-utils/
+  541  ls
+  542  cd ..
+  543  ls -l
+  544  cd ..
+  545  history
+  546  sudo chown -R nobody:dfwusers /opt/.station-basedir/; sudo chmod -R 775 /opt/.station-basedir/;
+  547  cd op
+  548  ls
+  549  cd .station-basedir/
+  550  ls
+  551  ls -l
+  552  cd devstation-utils/
+  553  ls
+  554  git pull
+  555  ls -l
+  556  cd 
+  557  cd /opt/
+  558  ls
+  559  cd .station-basedir/
+  560  ls
+  561  clear
+  562  ls -l
+  563  mkdir keys
+  564  rmdir keys
+  565  mkdir kfiles
+  566  cd kfiles/
+  567  ls
+  568  pwd
+  569  ssh-keygen -b 1024 
+  570  ls -l
+  571  cat station-key.pub 
+  572  cd ..
+  573  ls
+  574  ls -l
+  575  cd devstation-utils/
+  576  s
+  577  ls
+  578  git pull
+  579  ls
+  580  ls -l
+  581  git pull -h
+  582  git -h
+  583  man git
+  584  ls -l
+  585  cd ...
+  586  ls
+  587  cd ..
+  588  ls
+  589  cd kfiles/
+  590  ls
+  591  ls -l
+  592  chmod 600 *
+  593  ls -l
+  594  git -v
+  595  git --version
+  596  ls /opt/.station-basedir/kfiles/station-key
+  597  cd ..
+  598  ls
+  599  cd devstation-utils/
+  600  ls
+  601  GIT_SSH_COMMAND="ssh -i /opt/.station-basedir/kfiles/station-key" git pull
+  602  GIT_SSH_COMMAND="ssh -i /opt/.station-basedir/kfiles/station-key" git pull -vvv
+  603  PKEY=/opt/.station-basedir/kfiles/station-key git pull
+  604  ls
+  605  putll
+  606  git pull
+  607  GIT_SSH_COMMAND="ssh -i /opt/.station-basedir/kfiles/station-key" git pull -vvv
+  608  ls
+  609  ls -l
+  610  git pull
+  611  ls
+  612  cd ..
+  613  ls
+  614  cd kfiles/
+  615  ls
+  616  ls -l
+  617  cd ..
+  618  ls -l
+  619  clear
+  620  ls -l
+  621  ls
+  622  vim ~/.ssh/config
+  623  ls
+  624  cd kfiles/
+  625  ls
+  626  pwd
+  627  ls -l station-key
+  628  ls -l /opt/.station-basedir/kfiles/station-key
+  629  vim ~/.ssh/config 
+  630  ls
+  631  cd ..
+  632  ls
+  633  cd 
+  634  ls
+  635  cd 
+  636  cd .ssh/
+  637  ls
+  638  cd 
+  639  cd /opt/
+  640  ls
+  641  cd .ss
+  642  cd .station-basedir/
+  643  ls
+  644  cd devstation-utils/
+  645  ls
+  646  git pull
+  647  cd ..
+  648  rm -rf devstation-utils
+  649  git clone ssh://git@egbitbucket.dtvops.net:7999/com/devstation-utils.git
+  650  ls -l
+  651  cd devstation-utils/
+  652  git pull
+  653  ls -l
+  654  pwd
+  655  ls
+  656  ls -lh
+  657  pwd
+  658  sync
+  659  clear
+  660  ls -l
+  661  pwd
+  662  ls
+  663  cd
+  664  cd /opt/
+  665  ls
+  666  cd .ss
+  667  ls
+  668  cd .station-basedir/
+  669  ls
+  670  ls -l
+  671  cd devstation-utils/
+  672  ls
+  673  git pull
+  674  cd ..
+  675  ls
+  676  clear
+  677  ls -l
+  678  pwd
+  679  ls
+  680  ls -l
+  681  cd devstation-utils/
+  682  ls
+  683  cd libWand/
+  684  ls
+  685  cat station_apimain.sh 
+  686  ls
+  687  s -l
+  688  ls -l
+  689  chmod +x *
+  690  ls -l
+  691  cd
+  692  vim .profile 
+  693  exit
+  694  screen
+  695  screen -d -r
+  696  exit
+  697  cd /opt
+  698  ls
+  699  cd .dfw-installer-repo/
+  700  ls
+  701  cd ..
+  702  cd .station-basedir/
+  703  ls
+  704  s -l
+  705  cd kfiles/
+  706  ls
+  707  cp ~/.ssh/config .
+  708  ls
+  709  ls -l
+  710  cat config 
+  711  pwd
+  712  ls
+  713  exit
+  714  ping google.com
+  715  sync
+  716  clear
+  717  l -l
+  718  ls -l
+  719  pwd
+  720  s
+  721  clear
+  722  pwd
+  723  ls
+  724  ls -l
+  725  vim
+  726  screen -d -r
+  727  ls -l
+  728  cd /opt/
+  729  ls
+  730  cd .station-basedir/
+  731  ls
+  732  cd devstation-utils/
+  733  ls
+  734  git pull
+  735  ls -l
+  736  cd resources/
+  737  ls
+  738  ls -l
+  739  cd ..
+  740  ls
+  741  cd resources/
+  742  ls
+  743  cd ..
+  744  chmod -R 775 resources
+  745  ls -l
+  746  cd resources/
+  747  ls -la
+  748  cd .
+  749  cd .nc
+  750  cd .vnc/
+  751  ls
+  752  ls -l
+  753  cd ..
+  754  ls
+  755  cd 
+  756  cd /etc/profile.d/
+  757  ls -l
+  758  cat aeguser_login_event.sh 
+  759  cd 
+  760  ls
+  761  ps -eaf | grep vnc
+  762  ifconfig | grep inet
+  763  cd .vnc
+  764  ls
+  765  ls -l
+  766  vncpasswd
+  767  cd /opt/.station-basedir/.dfw-installer-repo/
+  768  ls
+  769  ls -l
+  770  cp -R ~/eclipse ./
+  771  ls -l
+  772  chmod -R 775 eclipse
+  773  ls -l
+  774  echo $aegStationUtilsDir/resources
+  775  df -h
+  776  sync
+  777  cd /opt/
+  778  ls
+  779  ls -la
+  780  cd .dfw-installer-repo/
+  781  ls
+  782  ls -l
+  783  cd ..
+  784  rmdir .dfw-installer-repo/
+  785  sudo rm -rf .dfw-installer-repo/
+  786  ls
+  787  ls -l
+  788  ls -la
+  789  cd .station-basedir/
+  790  ls
+  791  ls -la
+  792  cd devstation-utils/
+  793  ls
+  794  ls -l
+  795  cd ..
+  796  ls
+  797  cd kfiles/
+  798  ls
+  799  ls -l
+  800  cd ..
+  801  ls
+  802  ls -l
+  803  ls -la
+  804  sudo groupadd dfwusers;
+  805  sudo sudo usermod -a -G dfwusers ubuntu;
+  806  sudo mkdir -p /opt/.station-basedir/.dfw-installer-repo;
+  807  sudo mkdir -p /opt/dfwtools;
+  808  sudo chown -R ubuntu:dfwusers /opt/dfwtools; sudo chmod -R 775 /opt/dfwtools/; sudo chown -R ubuntu:dfwusers /opt/.station-basedir/.dfw-installer-repo;
+  809  ls -l
+  810  ls -la
+  811  sudo chown -R ubuntu:dfwusers .station-basedir
+  812  ls -l
+  813  ls -la
+  814  sudo chmod -R 775 /opt/.station-basedir/.dfw-installer-repo/;
+  815  sudo chown -R ubuntu:dfwusers /opt/.station-basedir/; sudo chmod -R 775 /opt/.station-basedir/;
+  816  sudo ln -s -f /opt/.station-basedir/devstation-utils/libWand/login_event.sh /etc/profile.d/aeguser_login_event.sh;
+  817  cd /etc/profile.d/
+  818  ls -ltr
+  819  cd ..
+  820  cd /opt/.station-basedir/
+  821  ls -l
+  822  cd devstation-utils/
+  823  ls -l
+  824  git pull
+  825  cd ..
+  826  ls
+  827  rm -rf devstation-utils
+  828  ls -l
+  829  ls
+  830  ls -l
+  831  cat install-docker.sh 
+  832  ls -l
+  833  rm install-docker.sh 
+  834  clear
+  835  ls -l
+  836  cd /opt/.station-basedir/
+  837  ls
+  838  git clone ssh://git@egbitbucket.dtvops.net:7999/com/devstation-utils.git
+  839  chmod 600 kfiles/station-key*
+  840  git clone ssh://git@egbitbucket.dtvops.net:7999/com/devstation-utils.git
+  841  ls -l
+  842  cd de
+  843  ls
+  844  cd devstation-utils/
+  845  ls
+  846  ls -l
+  847  cd ..
+  848  ls -la
+  849  cd .dfw-installer-repo/
+  850  ls
+  851  ls -l
+  852  cp -R ~/.vnc ./ -v
+  853  ls -l
+  854  cd .vc
+  855  ls -l
+  856  ls -la
+  857  cd .vnc
+  858  ls
+  859  rm d01002708407*
+  860  ls
+  861  rm passwd 
+  862  ls -l
+  863  ls -la
+  864  cat xstartup 
+  865  cd ..
+  866  ls
+  867  cd devstation-utils/
+  868  ls
+  869  cd resources/
+  870  ls
+  871  ls -l
+  872  cd ..
+  873  ls
+  874  git pull
+  875  ls
+  876  cd resources/
+  877  ls
+  878  ls -la
+  879  cd ..
+  880  ls
+  881  sudo init 0
+  882  ls
+  883  screen -d -r
+  884  ls -l
+  885  ls -la
+  886  l
+  887  rm .stationUserProfile 
+  888  exit
+  889  ls -l
+  890  ls -la
+  891  cd .vnc/
+  892  ls -la
+  893  cd ..
+  894  ls
+  895  mv *.png Pictures/
+  896  ls
+  897  ls -l
+  898  pwd
+  899  ls
+  900  sync
+  901  s -l
+  902  ls -l
+  903  ls -la
+  904  ls -lah
+  905  clear
+  906  ls -la
+  907  exit
+  908  sudo vim /etc/centrifydc/centrifydc.conf
+  909  exit
+  910  cd /dfw
+  911  ls -l
+  912  cd /opt/
+  913  ls
+  914  cd .station-basedir/
+  915  ls
+  916  ls -l
+  917  mkdir -p .shareddir
+  918  chmod -R 777 .shareddir
+  919  ls -l
+  920  sudo bash
+  921  exit
+  922  screen -d -r
+  923  cd /opt/
+  924  ls
+  925  cd .station-basedir/
+  926  ls
+  927  cd devstation-utils/
+  928  ls
+  929  git pull
+  930  ls -l
+  931  ls -la
+  932  cd ..
+  933  ls -la
+  934  sudo init 0
+  935  cd /opt/.station-basedir/devstation-utils/
+  936  ls
+  937  git pull
+  938  git config core.fileMode false
+  939  git pull
+  940  cd
+  941  ls
+  942  rm .stationUserProfile 
+  943  exit
+  944  vim .bashrc 
+  945  lsa
+  946  ls -la
+  947  cd .vnc/
+  948  ls -la
+  949  cat xstartup 
+  950  cd
+  951  exit
+  952  sudo init 0
+  953  u
+  954  sudo apt-get update
+  955  sudo init 6
+  956  u
+  957  ps -eaf | grep vn
+  958  i
+  959  u
+  960  ls -l
+  961  clear
+  962  ls -l
+  963  i
+  964  vdcstart-m 
+  965  exit
+  966  ls -l
+  967  vncserver -kill :133
+  968  vncserver -kill :13
+  969  exit
+  970  vdcstart-m 
+  971  ls -l
+  972  cat ubuntu-vdc-info.txt 
+  973  vncserver -kill :13
+  974  exit
+  975  vdcstart-m 
+  976  u
+  977  vncserver -kill :13
+  978  exit
+  979  u
+  980  exit
+  981  vncserver -kill :13
+  982  vdcstart-m 
+  983  ls -l
+  984  cat ubuntu-vdc-info.txt 
+  985  i
+  986  u
+  987  vncserver -kill :13
+  988  exit
+  989  u
+  990  vdcstart-m 
+  991  vncserver -kill :13
+  992  exit
+  993  vdcstart-m 
+  994  cat /home/ubuntu/ubuntu-vdc-info.txt
+  995  u
+  996  exit
+  997  vncserver -kill :13
+  998  i
+  999  exit
+ 1000  i
+ 1001  vdcstart-m 
+ 1002  cat ubuntu-vdc-info.txt 
+ 1003  vim ubuntu-vdc-info.txt 
+ 1004  vncserver -kill :13
+ 1005  clear
+ 1006  ls -l
+ 1007  u
+ 1008  sudo init 0
+ 1009  sudo apt-get update -y;
+ 1010  sudo add-apt-repository --remove http://ppa.launchpad.net/ubuntu-mate-dev/ppa/ubuntu
+ 1011  sudo apt-get update -y;
+ 1012  df -h
+ 1013  sync
+ 1014  df -h
+ 1015  sync
+ 1016  sudo apt-get update -y; sudo apt-get dist-upgrade -y; 
+ 1017  sudo ps -eaf
+ 1018  sudo top
+ 1019  sudo init 6
+ 1020  sudo apt-get update -y;
+ 1021  df -h
+ 1022  cd /opt/.station-basedir/
+ 1023  ls
+ 1024  cd devstation-utils/
+ 1025  ls
+ 1026  git pull
+ 1027  exit
+ 1028  sudo apt-get update -y; 
+ 1029  sudo dpkg --configure -a
+ 1030  screen
+ 1031  exit
+ 1032  sudo init 0
+ 1033  df -h
+ 1034  sync
+ 1035  exit
+ 1036  sudo vim /etc/centrifydc/centrifydc.conf
+ 1037  sudo vim ~/.ssh/authorized_keys 
+ 1038  sync
+ 1039  sudo init 6
+ 1040  exit
+ 1041  vim /etc/hosts
+ 1042  hostname
+ 1043  vim /etc/hosts
+ 1044  passwd ubuntu
+ 1045  exit
+ 1046  ping google.com
+ 1047  sudo apt-get update -y;
+ 1048  vim ~/.ssh/authorized_keys 
+ 1049  screen
+ 1050  screen -d -r
+ 1051  sudo bash
+ 1052  sudo vim /etc/ssh/sshd_config 
+ 1053  sudo service ssh restart
+ 1054  sudo service sshd restart
+ 1055  sudo service ssh 
+ 1056  sudo service ssh status
+ 1057  sudo service ssh restart
+ 1058  systemctl status ssh.service
+ 1059  sudo apt-get install openssh
+ 1060  apt search open
+ 1061  sudo apt-cache search open | grep ssh
+ 1062  sudo apt-get install openssh-server -y;
+ 1063  sudo vim /etc/ssh/sshd_config 
+ 1064  sudo service ssh restart
+ 1065  sudo systemctl restart ssh.service
+ 1066  journalctl -xe
+ 1067  sudo journalctl -xe
+ 1068  "
+ 1069  ~.
+ 1070  sudo init 6
+ 1071  ls -l
+ 1072  clear
+ 1073  ls -l
+ 1074  i
+ 1075  vdcstart-l 
+ 1076  exit
+ 1077  sudo ufw status
+ 1078  screen -ls
+ 1079  clear
+ 1080  screen -d -m -S shared
+ 1081  screen -ls
+ 1082  screen -x shared
+ 1083  exit
+ 1084  df -h
+ 1085  history
+ 1086  sudo su
+ 1087  sudo apt-get install gpartd
+ 1088  sudo apt-get install gparted
+ 1089  sudo apt-get -f install
+ 1090  df -h
+ 1091  lvdisplay
+ 1092  sudo lvdisplay
+ 1093  sudo parted 
+ 1094  sudo cfdisk /dev/vda
+ 1095  sudo fdisk /dev/vda
+ 1096  df -h
+ 1097  cd 
+ 1098  ls
+ 1099  ls -l
+ 1100  sudo rm -rf eclipse
+ 1101  df -h
+ 1102  ls
+ 1103  du -sh *
+ 1104  df -h
+ 1105  sync
+ 1106  cd /var/
+ 1107  ls
+ 1108  cd log
+ 1109  ls
+ 1110  ls -lh
+ 1111  cd /var/opt/
+ 1112  ls
+ 1113  cd /opt
+ 1114  ls
+ 1115  cd .station-basedir/
+ 1116  ls
+ 1117  cd ..
+ 1118  ls
+ 1119  cd dfwtools/
+ 1120  ls
+ 1121  ls -la
+ 1122  du -sh. 
+ 1123  cd ..
+ 1124  df -h
+ 1125  sync
+ 1126  sudo apt-get -f install
+ 1127  df -h
+ 1128  cd
+ 1129  ls
+ 1130  du -sh *
+ 1131  sudo fdisk -l
+ 1132  sudo apt-get remove linux-headers-4.4.0-57-generic linux-headers-4.4.0-59 -y
+ 1133  df -h
+ 1134  sync
+ 1135  uname -a
+ 1136  sudo apt-get purge linux-headers-4.4.0-57-generic linux-headers-4.4.0-41
+ 1137  sudo apt-get purge linux-headers-4.4.0-57-generic linux-headers-4.4.0-60
+ 1138  sudo apt-get purge linux-headers-4.4.0-57-generic linux-headers-4.4.0-53
+ 1139  sudo apt-get purge linux-headers-4.4.0-57-generic linux-headers-4.4.0-5cuname -a
+ 1140  uname -a
+ 1141  sudo apt-get purge linux-headers-4.4.0-57-generic linux-headers-4.4.0-59
+ 1142  clear
+ 1143  ls -l
+ 1144  cd apps/
+ 1145  ls
+ 1146  cd haproxy-app/
+ 1147  ls
+ 1148  cat docker-compose.yml 
+ 1149  ls -l
+ 1150  cd haproxycfg/
+ 1151  ls
+ 1152  cat haproxy-config.cfg 
+ 1153  clear
+ 1154  ls -l
+ 1155  pwd
+ 1156  ls
+ 1157  df -h
+ 1158  screen -x shared
+ 1159  pwd
+ 1160  mkdir apps
+ 1161  ls -l
+ 1162  cd aap
+ 1163  clear
+ 1164  ls -l
+ 1165  cd apps
+ 1166  ls
+ 1167  clear
+ 1168  ls -l
+ 1169  pwd
+ 1170  ls
+ 1171  mkdir haproxy-app
+ 1172  cd haproxy-app/
+ 1173  ls
+ 1174  clear
+ 1175  ls -l
+ 1176  vim docker-compose.yml
+ 1177  mkdir haproxycfg
+ 1178  vim ./haproxycfg/haproxy-config.cfg
+ 1179  ls
+ 1180  clear
+ 1181  ls -l
+ 1182  cd haproxycfg/
+ 1183  ls
+ 1184  docker ps
+ 1185  docker version
+ 1186  docker run haproxy ls /tmp
+ 1187  df -h
+ 1188  sudo fdisk -l
+ 1189  sudo cfdisk
+ 1190  sudo cfdisk -l
+ 1191  cfdisk /dev/vda
+ 1192  sudo cfdisk /dev/vda
+ 1193  df -h
+ 1194  lvm ls
+ 1195  sudo lvm ls
+ 1196  sudo lvdisplay 
+ 1197  sudo lvdisplay  -ls
+ 1198  sudo lvs
+ 1199  sudo lvscan
+ 1200  df -h
+ 1201  sudo ps
+ 1202  sudo ps -eaf | grep vnc
+ 1203  vncserver -kill :13
+ 1204  i
+ 1205  vdcstart-xl
+ 1206  vncserver -kill :13
+ 1207  vdcstart-m
+ 1208  df -h
+ 1209  fdisk
+ 1210  fdisk -l
+ 1211  sudo su
+ 1212  history| grep docker
+ 1213  docker run haproxy ls /tmp
+ 1214  mount | grep  /var/lib/docker/
+ 1215  fdisk -l
+ 1216  sudo fdisk -l
+ 1217  fdisk -l /dev/vda | head -1
+ 1218  sudo fdisk -l /dev/vda | head -1
+ 1219  sudo fdisk -l /dev/vda
+ 1220  fdisk /dev/vda
+ 1221  sudo fdisk /dev/vda
+ 1222  partprobe /dev/vda
+ 1223  sudo partprobe /dev/vda
+ 1224  df -Th /
+ 1225  resize2fs /dev/vda1
+ 1226  sudo resize2fs /dev/vda1
+ 1227  df -Th /
+ 1228  df -h
+ 1229  docker run haproxy ls /tmp
+ 1230  docker images
+ 1231  docker ps
+ 1232  ifconfig
+ 1233  df -h
+ 1234  docker run haproxy ls /tmp
+ 1235  sudo init 6
+ 1236  dh -f
+ 1237  df -h
+ 1238  docker images
+ 1239  fdisk -l
+ 1240  sudo fdisk -l
+ 1241  history
+ 1242  sudo fdisk -l /dev/vda
+ 1243  df -h
+ 1244  ip a
+ 1245  sudo ps -ef| grep vnc
+ 1246  vdcstart-m
+ 1247  ip a
+ 1248  df -h
+ 1249  ls
+ 1250  vi anand-cmdlog.txt 
+ 1251  ps -ef | grep vnc
+ 1252  ip a
+ 1253  history
+ 1254  ls
+ 1255  vi anand-cmdlog.txt 
+ 1256  ps -ef | grep vnc
+ 1257  vncserver -kill :13
+ 1258  vdcstart-m
+ 1259  ps -ef | grep vnc
+ 1260  docker ps
+ 1261  ls
+ 1262  vi anand-cmdlog.txt 
+ 1263  vi /etc/hosts
+ 1264  curl vosdashboard.ds.dtvops.net
+ 1265  curl vosdashboard.ds.dtvops.net:2017
+ 1266  ls
+ 1267  cd apps/
+ 1268  ls
+ 1269  vi haproxy-app/haproxycfg/haproxy-config.cfg 
+ 1270  docker-compose stop
+ 1271  ls
+ 1272  cd haproxy-app/
+ 1273  ls
+ 1274  docker-compose stop
+ 1275  docker-compose rm
+ 1276  docker-compose start
+ 1277  docker-compose up -d
+ 1278  docker ps
+ 1279  curl vosdashboard.ds.dtvops.net
+ 1280  vi haproxy-app/haproxycfg/haproxy-config.cfg 
+ 1281  ls
+ 1282  vi haproxycfg/haproxy-config.cfg 
+ 1283  ip a
+ 1284  docker-compose stop
+ 1285  docker-compose rm
+ 1286  docker-compose up -d
+ 1287  docker ps
+ 1288  curl vosdashboard.ds.dtvops.net
+ 1289  curl vosdashboard.ds.dtvops.net:2017
+ 1290  vi haproxycfg/haproxy-config.cfg 
+ 1291  docker-compose stop
+ 1292  docker-compose rm
+ 1293  vi haproxycfg/haproxy-config.cfg 
+ 1294  docker-compose up -d
+ 1295  docker ps
+ 1296  curl vosdashboard.ds.dtvops.net
+ 1297  netstat -nlp 
+ 1298  netstat -nlp  | grep 80
+ 1299  netstat -nlp  | grep 2017
+ 1300  vi haproxycfg/
+ 1301  vi haproxycfg/haproxy-config.cfg 
+ 1302  docker-compose stop
+ 1303  docker-compose rm -y
+ 1304  docker-compose rm
+ 1305  docker-compose up -d
+ 1306  docker ps
+ 1307  curl vosdashboard.ds.dtvops.net
+ 1308  curl vosdashboard.ds.dtvops.net:2017
+ 1309  vi haproxycfg/haproxy-config.cfg 
+ 1310  man ufw
+ 1311  sudo ufw status
+ 1312  curl vosdashboard.ds.dtvops.net:80
+ 1313  curl vosdashboard.ds.dtvops.net:2017
+ 1314  curl vosdashboard.ds.dtvops.net
+ 1315  sudo ufw status
+ 1316  sudo ufw disable
+ 1317  curl vosdashboard.ds.dtvops.net
+ 1318  sudo ufw enable
+ 1319  sudo ufw disable
+ 1320  netstat -nlp | grep 80
+ 1321  vi haproxycfg/haproxy-config.cfg 
+ 1322  docker-compose stop
+ 1323  docker-compose rm
+ 1324  docker-compose up -d
+ 1325  docker pa
+ 1326  docker ps
+ 1327  netstat -nlp | grep 80
+ 1328  curl vosdashboard.ds.dtvops.net
+ 1329  ps -ef | grep haroxy
+ 1330  ps -ef | grep haproxy
+ 1331  netstat -tulpn | grep :80
+ 1332  curl localhost
+ 1333  docker ps
+ 1334  docker-compose logs
+ 1335  vi haproxycfg/haproxy-config.cfg 
+ 1336  ls
+ 1337  docker-compose stop
+ 1338  docker-compose rm
+ 1339  docker-compose up -d
+ 1340  curl vosdashboard.ds.dtvops.net
+ 1341  vi haproxycfg/haproxy-config.cfg 
+ 1342  vi /etc/hosts
+ 1343  vi /etc/host
+ 1344  vi /etc/hosts
+ 1345  sudo vi /etc/hosts
+ 1346  curl vosdashboard.ds.dtvops.net
+ 1347  sudo vi /etc/hosts
+ 1348  vi haproxycfg/haproxy-config.cfg 
+ 1349  docker-compose stop
+ 1350  docker-compose rm
+ 1351  docker-compose up -d
+ 1352  docker-compose log
+ 1353  docker-compose logs
+ 1354  curl vosdashboard.ds.dtvops.net
+ 1355  docker-compose logs
+ 1356  ip a
+ 1357  curl 10.105.169.32:80
+ 1358  curl 127.0.0.1:80
+ 1359  docker ps
+ 1360  docker-compose logs
+ 1361  vi haproxycfg/haproxy-config.cfg 
+ 1362  docker-compose stop
+ 1363* 
+ 1364  docker-compose up -d
+ 1365  curl vosdashboard.ds.dtvops.net
+ 1366  ps -ef| grep haproxy
+ 1367  docker-compose stop
+ 1368  docker-compose rm
+ 1369  ps -ef | grep haproxy
+ 1370  vi haproxycfg/haproxy-config.cfg 
+ 1371  docker-compose up -d
+ 1372  ps -ef| grep haproxy
+ 1373  curl vosdashboard.ds.dtvops.net
+ 1374  vi docker-compose.yml 
+ 1375  docker ps
+ 1376  docker attach tenantvipapp
+ 1377  docker ps
+ 1378  docker-compose rm
+ 1379  docker-compose up -d
+ 1380  docker ps
+ 1381  curl vosdashboard.ds.dtvops.net
+ 1382  vi haproxycfg/haproxy-config.cfg 
+ 1383  curl vosdashboard.ds.dtvops.net
+ 1384  docker-compose logs
+ 1385  ls
+ 1386  cd haproxycfg/
+ 1387  ls
+ 1388  cp haproxy-config.cfg haproxy-config.cfg.orig
+ 1389  vi haproxy-config.cfg
+ 1390  ls
+ 1391  ls -l
+ 1392  vi haproxy-config.cfg
+ 1393  ip a
+ 1394  vi haproxy-config.cfg
+ 1395  cd ..
+ 1396  docker-compose stop
+ 1397  docker-compose rm
+ 1398  docker-compose up -d
+ 1399  docker ps
+ 1400  curl localhost
+ 1401  curl vosdashboard.ds.dtvops.net
+ 1402  vi haproxycfg/
+ 1403  vi haproxycfg/haproxy-config.cfg
+ 1404  docker-compose stop
+ 1405  docker-compose rm
+ 1406  docker-compose up -d
+ 1407  curl vosdashboard.ds.dtvops.net
+ 1408  docker ps
+ 1409  docker-compose stop
+ 1410  docker-compose rm
+ 1411  vi haproxycfg/haproxy-config.cfg
+ 1412  ls
+ 1413  cd haproxycfg/
+ 1414  ls
+ 1415  cp haproxy-config.cfg haproxy-config.cfg.old
+ 1416  cp haproxy-config.cfg.orig haproxy-config.cfg
+ 1417  vi haproxy-config.cfg
+ 1418  ip a
+ 1419  docker ps
+ 1420  docker-compose up -d
+ 1421  docker ps
+ 1422  curl vosdashboard.ds.dtvops.net
+ 1423  vi haproxy-config.cfg
+ 1424  curl localhost
+ 1425  curl 127.0.0.1
+ 1426  curl 10.105.169.32
+ 1427  curl vosdashboard.ds.dtvops.net
+ 1428  ping vosdashboard.ds.dtvops.net
+ 1429  ping localhost
+ 1430  curl 10.105.169.32
+ 1431  curl vosdashboard.ds.dtvops.net
+ 1432  vi haproxy-config.cfg
+ 1433  docker-compose stop
+ 1434  docker-compose rm
+ 1435  docker-compose up -d
+ 1436  docker ps
+ 1437  docker-compose logs
+ 1438  vi haproxy-config.cfg
+ 1439  docker-compose stop
+ 1440  docker-compose rm
+ 1441  man nmap
+ 1442  docker-compose up -d
+ 1443  docker ps
+ 1444  docker-compose logs
+ 1445  vi haproxy-config.cfg
+ 1446  docker-compose stop
+ 1447  docker-compose rm
+ 1448  docker-compose up -d
+ 1449  docker-compose logs
+ 1450  curl vosdashboard.ds.dtvops.net
+ 1451  curl https://vosdashboard.ds.dtvops.net
+ 1452  docker ps
+ 1453  vi haproxy-config.cfg
+ 1454  docker-compose logs
+ 1455  dicker ps
+ 1456  docker ps
+ 1457  docker inspect b8cab11ade18
+ 1458  docker inspect b8cab11ade18| grep logging
+ 1459  docker inspect b8cab11ade18| grep log
+ 1460  docker-compose logs
+ 1461  history > cmds1.txt

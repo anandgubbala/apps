@@ -1,4 +1,10 @@
 ***
-haproxy container app for load balancing VOS controller dash boards
+haproxy container app for load balancing VOS controller nodes dash board access
 
+1. Edit haproxy-config.cfg backend with controller node IPs
+2. Start container 
+   docker-compose up -d
+
+Use following commands as a batch for debugging
+docker-compose stop; docker-compose rm -f; docker-compose up -d;
 ****
